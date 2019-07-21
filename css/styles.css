@@ -1,0 +1,27 @@
+#pic {float: right;
+width: 140px;}
+
+body {
+  font-family: sans-serif;
+  color: rgb(23, 85, 167);
+  background-color: bisque;
+}
+nav {
+  border-bottom: 1px solid rgb(19, 59, 110);
+}
+.navbar {
+  display: inline;
+  margin-right: 40px;}
+
+.navbar a {text-decoration: none;
+color: rgb(23, 85, 167);}
+
+@media(max-width: 768px){
+ #Verse {float: right;
+   width: 40%;
+ background-color: #EA8;
+margin-top: 15px;
+}
+a {text-decoration:none;
+color: rgb(23,85,167);}
+}
